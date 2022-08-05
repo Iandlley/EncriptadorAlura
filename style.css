@@ -88,6 +88,7 @@ h2 {
   color: rgb(2, 200, 2);
   background:rgb(0, 0, 0); 
   box-shadow: 0 0 20px 0 #04ff00;
+  transform: scale(1);
 }
 
 .encrypted-text{
