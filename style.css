@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: serif;
+}
+
+body {
+  width: 80%;
+  margin: 5% auto; 
+  text-align: center;  
+  background: url(backgroundMatrix.gif);
+}
+
+.encrypt-field {
+  width: 100%;
+  padding: 60px 0; 
+  color:rgb(2, 200, 2);
+  border: 2px solid rgb(2, 200, 2);
+  border-radius: 10px; 
+  background:url(matrix00.jpg);
+}
+
+h1 {
+  color:rgb(2, 200, 2);
+  margin-bottom: 30px;  
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom:20px;
+}
+
+.text-area1, .text-area2  {
+  width: 60%;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color:rgb(2, 200, 2);
+  background: black;
+  border: 3px solid rgb(2, 200, 2);
+  border-radius: 10px;
+  resize: none;
+}
+
+.text-area1:hover, .text-area2:hover {
+  border: 3px solid rgb(2, 200, 2);
+  transition: all 0.1s ease-in;
+  box-shadow: 0 0 20px 0 #04ff00;
+}
+
+.text-area1:focus, .text-area2:focus{
+  border: 3px solid rgb(2, 200, 2);
+  box-shadow: 0 0 30px 0 #04ff00;
+  outline: none;
+}
+
+.buttons {
+  margin-bottom: 40px; 
+}
+
+.button-encrypt, .button-decrypt {
+   width: 170px; 
+   text-transform: uppercase;
+   font-size: 16px; 
+   font-weight: bold;
+   color: rgb(2, 200, 2);
+   background: url(matrix00.jpg);
+   border: 2px solid rgb(2, 200, 2);
+   border-radius: 10px;   
+}
+
+.button-decrypt {
+  margin-top: 10px;
+}
+
+.button-encrypt:hover, .button-decrypt:hover, .button-copy:hover {
+  color: rgb(0, 0, 0);
+  background:rgb(2, 200, 2);
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px 0 #04ff00;
+}
+
+.button-encrypt:active, .button-decrypt:active, .button-copy:active {
+  font-weight: bold;
+  color: rgb(2, 200, 2);
+  background:rgb(0, 0, 0); 
+  box-shadow: 0 0 20px 0 #04ff00;
+}
+
+.encrypted-text{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.button-copy {
+   width: 170px;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 15px; 
+   font-weight: bold;
+   color: rgb(2, 200, 2);
+   background: url(matrix00.jpg);
+   border: 2px solid rgb(2, 200, 2);
+   border-radius: 10px;
+}
+
+.footer {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 10px;
+}
